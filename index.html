@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>GraphQL – The next generation API language</title>
+
+		<meta name="description" content="GraphQL – The next generation API language">
+		<meta name="author" content="Niek Palm">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+  	<link rel="stylesheet" href="css/slides.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<style>
+figure {
+display: inline-block;
+vertical-align: top
+}
+</style>
+	</head>
+	<body>
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section data-background="linear-gradient(135deg,rgb(124,10,98),rgb(177,142,184)">
+
+					<img data-src="images/graphql-logo.png" width="80%" height="80%">
+					<h3>The next generation API language</h3>
+							<td>
+						  	<img data-src="images/meetup-logo.svg" width="20%" height="20%">
+						 	</td>
+						  <td>
+								<img data-src="images/developers_nl.svg" width="20%" height="20%">
+							</td>
+
+							<p><small>
+
+						<br> June 28th 2017
+
+						<div><div>
+						Created by: <a
+						href="mailto:dev.npalm@gmail.com">Niek Palm</a>
+					</small></p>
+				</section>
+
+				<section data-markdown="markdown/intro.md"
+					data-background="linear-gradient(135deg,rgb(124,10,98),rgb(177,142,184)"
+					data-transition="slide"
+					data-background-transition="zoom"
+					data-separator="^\n!SLIDE"
+					data-separator-vertical="^\n!SUB"
+					data-separator-notes="^\n!NOTE"
+		  		data-charset="iso-8859-15">
+				</section>
+
+				<section
+					data-background-image="images/past.jpg"
+					data-markdown="markdown/past.md"
+					data-transition="slide"
+					data-background-transition="zoom"
+					data-separator="^\n!SLIDE"
+					data-separator-vertical="^\n!SUB"
+					data-separator-notes="^\n!NOTE"
+					data-charset="iso-8859-15">
+				</section>
+
+				<section
+					data-background="linear-gradient(135deg,rgb(124,10,98),rgb(177,142,184)"
+					data-markdown="markdown/rest.md"
+					data-transition="slide"
+					data-background-transition="zoom"
+					data-separator="^\n!SLIDE"
+					data-separator-vertical="^\n!SUB"
+					data-separator-notes="^\n!NOTE"
+					data-charset="iso-8859-15">
+				</section>
+
+				<section
+					data-background-image="images/future.jpg"
+					data-transition="slide"
+					data-background-transition="zoom"
+					data-separator="^\n!SLIDE"
+					data-separator-vertical="^\n!SUB"
+					data-separator-notes="^\n!NOTE"
+					data-charset="iso-8859-15">
+				</section>
+
+				<section data-markdown="markdown/graphql.md"
+					data-background="linear-gradient(135deg,rgb(124,10,98),rgb(177,142,184)"
+					data-transition="slide"
+					data-background-transition="zoom"
+					data-separator="^\n!SLIDE"
+					data-separator-vertical="^\n!SUB"
+					data-separator-notes="^\n!NOTE"
+					data-charset="iso-8859-15">
+				</section>
+
+				<section data-markdown="markdown/last.md"
+					data-background="linear-gradient(135deg,rgb(124,10,98),rgb(177,142,184)"
+					data-transition="slide"
+					data-background-transition="zoom"
+					data-separator="^\n!SLIDE"
+					data-separator-vertical="^\n!SUB"
+					data-separator-notes="^\n!NOTE"
+					data-charset="iso-8859-15">
+				</section>
+
+			</div>
+		</div>
+
+		<script src="reveal/lib/js/head.min.js"></script>
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'default', // none/fade/slide/convex/concave/zoom
+
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'reveal/plugin/math/math.js', async: true }
+				]
+			});
+
+			// Slide every five seconds
+			Reveal.configure({
+					//autoSlide: 10000,
+					//loop: true
+			});
+
+
+		</script>
+	</body>
+</html>
