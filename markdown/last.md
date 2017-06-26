@@ -11,7 +11,7 @@
       "blog": "https://040code.github.io",
       "talk": {
           "title": "GraphQL - The next generation API language",
-          "slides": "http://bit.ly/2rwf4se"
+          "slides": "http://bit.ly/2s9xJhu"
       }
     }
   }

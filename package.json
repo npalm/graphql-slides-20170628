@@ -16,5 +16,9 @@
   "devDependencies": {
     "node-sass": "^3.11.2",
     "node-static": "^0.7.9"
+  },
+  "dependencies": {
+    "global": "^4.3.2",
+    "static": "^2.0.0"
   }
 }
