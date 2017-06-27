@@ -17,3 +17,12 @@
   }
 }
 ```
+
+
+!SUB
+## Next meetup
+---
+
+*Process Reactive Service Architecture*
+<br>
+<small>September 20, 2017</small>
